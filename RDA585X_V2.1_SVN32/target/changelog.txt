@@ -1,0 +1,52 @@
+Source delivery target v2
+=========================
+  Workspace:
+    ^/Sources/application/branches/Total_BJ application
+    ^/Sources/env/trunk                     env
+    ^/Sources/platform/trunk                platform
+    ^/Sources/base/trunk                    platform/base
+    ^/Sources/chip/trunk                    platform/chip
+    ^/Sources/csw/branches/Total_BJ         platform/csw
+    ^/Sources/edrv/trunk                    platform/edrv
+    ^/Sources/mdi/branches/Total_BJ         platform/mdi
+    ^/Sources/stack/branches/Total_BJ       platform/stack
+    ^/Sources/svc/trunk                     platform/svc
+    ^/Sources/vpp/trunk                     platform/vpp
+    ^/Sources/platform_test/trunk           platform_test
+    ^/Sources/target/releases/v2            target
+    ^/Sources/toolpool/trunk                toolpool
+
+  Compatibility, upgrade notes:
+    * Requires CHIP v4, v4.3 or later.
+    * Requires EDRV v2 or later.
+    * Requires SVC v2, v2.3 or later.
+
+  Changes:
+    * First used release. Added some new targets, removed a few useless ones. Lot of merges from Total_BJ branch.
+    * Added expanded key structure for HAL.
+    * Added the WAP MMS file system portion in the cs2324d.
+
+Source delivery target v1
+=========================
+  Workspace:
+    ^/Sources/application/trunk     application
+    ^/Sources/env/releases/v2       env
+    ^/Sources/platform/trunk        platform
+    ^/Sources/base/trunk            platform/base
+    ^/Libraries/chip/releases/v2.1  platform/chip
+    ^/Sources/csw/trunk             platform/csw
+    ^/Sources/edrv/releases/v1      platform/edrv
+    ^/Sources/mdi/trunk             platform/mdi
+    ^/Sources/stack/releases/v1     platform/stack
+    ^/Sources/svc/releases/v1       platform/svc
+    ^/Sources/vpp/trunk             platform/vpp
+    ^/Sources/platform_test/trunk   platform_test
+    ^/Sources/target/releases/v1    target
+    ^/Sources/toolpool/trunk        toolpool
+
+  Compatibility, upgrade notes:
+    * compatible with Total_integration
+
+  Changes:
+    * Initial delivery
+

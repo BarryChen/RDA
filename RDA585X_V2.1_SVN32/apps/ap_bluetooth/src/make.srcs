@@ -1,0 +1,3 @@
+S_SRC := 
+
+C_SRC := ap_bluetooth.c   ap_headset.c   ap_obex.c ap_hid.c ap_spp.c

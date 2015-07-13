@@ -1,0 +1,368 @@
+
+#######################################
+## PART A
+##-------------------------------------
+## 芯片描述信息
+#######################################
+
+
+#=====================================
+##  1 ##
+######## 芯片描述信息 ########
+
+## ASIC type: 8808/8809
+CT_ASIC         ?= 8809
+
+
+## Chip package for different sram size:
+#RDA5850/RDA5851S: 0Mbit sram
+#RDA5851/RDA8851A: 16Mbit sram
+
+CT_CHIP_PKG 	?= RDA5851
+
+## Chip die type:
+## or set to null (otherwise)
+CT_CHIP_DIE 	?= 
+
+#######################################
+## PART B
+##-------------------------------------
+## 驱动描述信息
+#######################################
+
+
+## 注意1：除非特别说明，module的名字必须和edrv目录下面的目录名保持一致，
+## 否则编译的时候找不到对应的目标。如果edrv下面没有相关的目录，
+## 说明暂时没有这个设备的驱动，需要驱动工程师自己去开发一个新的驱动，
+## 驱动程序可以根据设备的SPEC参考已有的驱动进行修改。
+
+#=====================================
+##  2 ##
+######## 触屏驱动，作为模拟按键使用 ########
+
+## 芯片集成，需要则设置为rda1203_gallite，否则设置为空
+TSD_MODEL       ?= rda1203_gallite
+
+GLOBAL_EXPORT_FLAG += _USED_TSC_KEY_
+GLOBAL_EXPORT_FLAG += _USED_TSC_KEY_IN_LP_MODE_
+
+#=====================================
+##  3 ##
+######## FM驱动 ########
+
+## rda5876
+## rda5802na
+FM_MODEL        ?= rdafm_8809
+
+## 如果使用I2S，则设置为1；
+## 如果使用LINE-IN，则设置为0
+FM_USING_I2S    ?= 0
+
+## FM使用的32K时钟管脚: 1/0
+## 1: 32K_CLK pin
+## 0: CLK_OUT pin
+FM_USE_32K_CLK_PIN ?= 0
+
+## FM使用外置拉杆天线（不需要插入耳机收听）
+#MMI_EXPORT_FLAG += FM_RADIO_WITH_EXTERNAL_ANT
+
+
+#=====================================
+##  4 ##
+######## FLASH驱动 ########
+##SPI Flash (RAM is packaged inside baseband chip)
+
+FLSH_MODEL      ?= flsh_spi32m
+
+//GLOBAL_EXPORT_FLAG += VDS_SUPPORT
+
+## Flash model interface: parallel/spi
+FLSH_IF         ?= spi
+
+## EBC CLK cfg:__52MHz__/__78MHz__/__104MHz__/__156MHz__
+SYS_MEMD_EBC_CLK ?= __78MHz__
+
+##SPIFLASH  spi CLK cfg:__52MHz__/__78MHz__/__104MHz__/__156MHz__
+ifeq "$(strip ${FLSH_IF})" "spi"
+SYS_MEMD_FLSH_SPI_CLK ?= __78MHz__
+endif # (${FLSH_IF},)
+
+## Ram is ADMUX or not 
+TARGET_EXPORT_FLAG    += MEMD_RAM_IS_ADMUX
+## Flash is ADMUX or not 
+#TARGET_EXPORT_FLAG    += MEMD_FLASH_IS_ADMUX
+## Ram support burst mode or not
+TARGET_EXPORT_FLAG    += MEMD_RAM_IS_BURST
+## Flash support burst mode or not
+#TARGET_EXPORT_FLAG    += MEMD_FLASH_IS_BURST
+
+
+#=====================================
+##  5 ##
+######## LCD驱动 ########
+LCD_MODEL       ?=  st7735r
+#ili9163c st7735r
+
+## LCD interface: gouda/slcd
+LCD_IF          ?= gouda
+
+## GOUDA can support serial LCD starting from 8808
+ifeq "${LCD_IF}" "gouda"
+USE_SPI_LCD     ?= 1
+TARGET_EXPORT_FLAG    += USE_SPI_LCD
+endif
+
+#=====================================
+##  6 ##
+######## 蓝牙驱动 ########
+
+## RDA5870
+## RDA5872
+## RDA5875
+## RDA5876
+BT_MODEL        ?= rdabt_8809
+
+ifneq (${BT_MODEL},)
+## 当不支持A2DP的时候需要定义这个宏
+#GLOBAL_EXPORT_FLAG += __BT_NO_A2DP_PROFILE__
+
+GLOBAL_EXPORT_FLAG += BT_SUPPORT
+
+GLOBAL_EXPORT_FLAG += BT_UART_TRANSPORT
+
+GLOBAL_EXPORT_FLAG += BT_SSP_VOC_SUPPORT
+
+## Define BT crystal flag
+BT_SHARE_CRYSTAL ?= 1
+
+## 蓝牙使用的32K时钟管脚: 1/0
+## 1: 32K_CLK pin
+## 0: CLK_OUT pin
+BT_USE_32K_CLK_PIN ?= 0
+endif # (${BT_MODEL},)
+
+
+# UART 2
+UART2_SUPPORT   ?= 0
+
+#=====================================
+##  7 ##
+######## T卡驱动 ########
+
+## Interface: sdmmc/spi
+MCD_IF          ?= sdmmc
+
+#=====================================
+## 8 ##
+######## 软I2C驱动 ########
+
+## 当配置了这项为i2c_gpio之后，会使用GPIO10和GPIO11来软件模拟I2C接口;
+## 不使用软件模拟时设置为空
+I2C_MODEL       ?= 
+
+#=====================================
+## 9 ##
+######## 音频驱动 #########
+
+## MIC电路是否采用节省电容器的方案（是填1；否则填0）
+MIC_CAPLESS_MODE ?= 1
+## Whether to enable speaker line L-R-double mode
+AUD_SPK_LINE_L_R_DOUBLE ?= 0
+
+## Receiver uses one speaker line (using left line by default)
+#TARGET_EXPORT_FLAG    += RECV_USE_SPK_LINE
+
+## If using right line, the following macro should be added as well
+#TARGET_EXPORT_FLAG    += RECV_USE_SPK_LINE_R
+
+## Alleviate the "pop" sound on loud speaker for some external audio PAs
+#TARGET_EXPORT_FLAG    += AUD_SPK_ON_WITH_LCD
+
+#=====================================
+## 10 ##
+######## WIFI驱动 #########
+
+## rdawifi
+WIFI_MODEL      := 
+
+## WIFI使用的32K时钟管脚: 1/0
+## 1: 32K_CLK pin
+## 0: CLK_OUT pin
+WIFI_USE_32K_CLK_PIN ?= 0
+
+
+#=====================================
+## 11 ##
+######## 32K时钟配置 #########
+
+## 基带芯片是否使用外部晶体提供的32K时钟（XTAL32K_IN管脚）：1/0
+USE_EXT_XTAL_32K ?= 0
+## VOC CLK cfg:__78MHz__/__156MHz__/__208MHz__/__250MHz__/__312MHz__
+SYS_VOC_CLK ?= __208MHz__
+
+
+#######################################
+## PART C
+##-------------------------------------
+## 应用描述信息
+#######################################
+#=====================================
+## 12 ##
+##用户项目定义#######
+APP_BASEDIR := apps
+CT_PROJECT := 160_128RGB
+AUD_MAX_LEVEL :=26
+CT_RESVALID := yes
+GLOBAL_EXPORT_FLAG += RESOURCE_SUPPORT
+
+#=====================================
+## 13 ##
+######## USB支持类型 ########
+
+## umss_storage_mc 表示仅支持T卡U盘
+UCTLS_SERVICE   ?= umss_storage_mc
+# 支持usb音箱
+GLOBAL_EXPORT_FLAG += USB_AUDIO_SUPPORT
+# 支持usb host
+MCD_USB_HOST_SUPPORT ?= no
+#=====================================
+## 14 ##
+######## 多媒体功能 ########
+## Video player功能: 1/0
+## 如果不在这里设置，VIDEO_PLAYER_SUPPORT会在后面被默认设置为1;
+## 对于ULC项目可以将其设置为0，取消video player功能以节省flash空间
+VIDEO_PLAYER_SUPPORT ?= 0
+
+## sound recorder功能: 1/0
+SOUND_RECORDER_SUPPORT ?= 1
+
+## Video recorder功能: 1/0
+VIDEO_RECORDER_SUPPORT ?= 0
+
+ifeq "$(strip ${VIDEO_RECORDER_SUPPORT})" "1"
+##
+## VDOREC_MODE_QVGA: QVGA(320x240) recording
+## VDOREC_MODE_VGA: VGA(640x480) recording
+## If neither is declared, QQVGA(160x120) recording by default
+## Neither macro is recommended to declare unless on 8808 platform
+##
+#GLOBAL_EXPORT_FLAG += VDOREC_MODE_VGA
+
+##
+## VIDREC_FAST_RECORDING: 15 frames per second, only available for QVGA/QQVGA recording
+## If it is not declared, 10 fps for QVGA/QQVGA by default.
+##
+#GLOBAL_EXPORT_FLAG += VIDREC_FAST_RECORDING
+endif
+
+## 使用camera模拟2d sensor: 1/0
+ifneq "$(strip ${CAMERA_MODEL})" ""
+CAM_MD_SUPPORT ?= 0
+endif
+
+## 魔音功能: 1/0
+MAGIC_AE_SUPPORT ?= 0
+
+## RMVB播放解码支持: 1/0
+## 此功能需求的内存较大，总共约760KB
+MEDIA_RM_SUPPORT ?= 0
+
+## MIDI播放支持: 1/0
+MEDIA_MIDI_SUPPORT ?= 0
+
+#######################################
+## PART D
+##-------------------------------------
+## 编译调试描述信息
+#######################################
+
+#=====================================
+## 15 ##
+######## 编译优化选项 ########
+
+## 编译代码空间优化
+CT_OPT ?= dbg_size
+
+## 编译时候遇到warnning不停止编译
+WITHOUT_WERROR ?= 1
+
+# Export board information to lod: yes/no
+EXPORT_BOARD_INFO ?= yes
+# User defined board information
+EXPORT_BOARD_FLAGS ?= PM_MODEL FM_MODEL
+
+#=====================================
+## 16 ##
+######## 调试选项 ########
+## Trace
+## Disable this macro if trace is needed in any module
+#TARGET_EXPORT_FLAG += SXS_NO_PRINTF
+## Individual modules
+GLOBAL_EXPORT_FLAG += NO_REMOTE_COMPUTER
+#TARGET_EXPORT_FLAG += APP_NO_TRACE
+#TARGET_EXPORT_FLAG += BT_NO_TRACE
+#TARGET_EXPORT_FLAG += CSW_NO_TRACE
+#TARGET_EXPORT_FLAG += MCI_NO_TRACE
+#TARGET_EXPORT_FLAG += HAL_NO_PRINTF
+#TARGET_EXPORT_FLAG += VOIS_NO_PRINTF
+#TARGET_EXPORT_FLAG += EDRV_NO_TRACE
+#TARGET_EXPORT_FLAG += UCTLS_NO_PRINTF
+#TARGET_EXPORT_FLAG += UMSS_NO_PRINTF
+#TARGET_EXPORT_FLAG += UAUD_NO_PRINTF
+#TARGET_EXPORT_FLAG += UHID_NO_PRINTF
+#TARGET_EXPORT_FLAG += ARS_NO_PRINTF
+## Dump
+TARGET_EXPORT_FLAG += SXS_NO_DUMP
+#TARGET_EXPORT_FLAG += HAL_USB_PRINTF
+
+## for audio debug
+## 通过SPI调试射频寄存器参数
+TARGET_EXPORT_FLAG += SPI_REG_DEBUG
+
+#=====================================
+## 17 ##
+#有些音频放大芯片使用1线脉冲控制
+#  Option1:1	1级放大
+#  Option2:2	2级放大
+#  Option3:4	4级放大
+AUDIO_AMPLIFYER_PULSE      ?= 2
+
+ifeq "${AUDIO_AMPLIFYER_PULSE}" "1"
+GLOBAL_EXPORT_FLAG  += DRV_AUDIO_AMPLIFYER_PULSE_1
+endif
+
+ifeq "${AUDIO_AMPLIFYER_PULSE}" "2"
+GLOBAL_EXPORT_FLAG  += DRV_AUDIO_AMPLIFYER_PULSE_2
+endif
+
+ifeq "${AUDIO_AMPLIFYER_PULSE}" "4"
+GLOBAL_EXPORT_FLAG  += DRV_AUDIO_AMPLIFYER_PULSE_4
+endif
+#=====================================
+## 18 ##
+# 媒体类型支持
+
+##关闭midi支持
+GLOBAL_EXPORT_FLAG += MIDI_NOT_SUPPORT
+GLOBAL_EXPORT_FLAG += TARGET_MIDI_SUPPORT_OFF
+GLOBAL_EXPORT_FLAG += TARGET_VIDEO_PLAYER_SUPPORT_OFF
+#GLOBAL_EXPORT_FLAG += TARGET_SOUND_RECORDER_SUPPORT_OFF
+#GLOBAL_EXPORT_FLAG += TARGET_WMA_SUPPORT_OFF
+#GLOBAL_EXPORT_FLAG += TARGET_MP3_SUPPORT_OFF
+GLOBAL_EXPORT_FLAG += TARGET_AAC_SUPPORT_OFF
+TARGET_MIDI_SUPPORT_OFF=1
+TARGET_VIDEO_RECORDER_SUPPORT_OFF=1
+TARGET_VIDEO_PLAYER_SUPPORT_OFF=1
+#TARGET_SOUND_RECORDER_SUPPORT_OFF=1
+TARGET_IMAGE_DISPLAY_SUPPORT=1
+#################################################################
+
+
+#######################################
+## PART E
+##-------------------------------------
+## 通用设置，请勿修改，并保证此部分在文件的最后
+#######################################
+
+include ${SOFT_WORKDIR}/target/target_common.def
+

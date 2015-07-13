@@ -1,0 +1,8 @@
+MSYS-1.0.11 Build:2009-05-23 19:33
+Exception: STATUS_ACCESS_VIOLATION at eip=00000000
+eax=00000000 ebx=00000001 ecx=00000000 edx=00000000 esi=7109816C edi=71098174
+ebp=0022FE04 esp=0022FDE8 program=E:\RDA\RDA_FAE\¿∂—¿º”√‹\RDA585X_V2.1\toolpool\msys\bin\cat.exe
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+End of stack trace

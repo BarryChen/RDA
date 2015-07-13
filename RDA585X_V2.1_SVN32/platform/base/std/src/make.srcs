@@ -1,0 +1,35 @@
+S_SRC := 
+
+C_SRC := \
+    std_map.c \
+    assert.c \
+    atoi.c \
+    bsearch.c \
+    ctype.c \
+    memchr.c \
+    memcmp.c \
+    memcpy.c \
+    memmove.c  \
+    memscan.c  \
+    memset.c \
+    qsort.c \
+    rand.c \
+    strcat.c \
+    strchr.c \
+    strcmp.c \
+    strcpy.c \
+    strcspn.c \
+    strlen.c \
+    strncat.c  \
+    strncmp.c  \
+    strncpy.c  \
+    strnicmp.c \
+    strsep.c \
+    strspn.c \
+    strstr.c \
+    strtok.c \
+    strtol.c \
+    strtoul.c  \
+    vsprintf.c \
+    vsscanf.c \
+

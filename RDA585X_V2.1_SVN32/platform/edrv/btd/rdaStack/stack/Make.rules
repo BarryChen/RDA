@@ -1,0 +1,9 @@
+local_objs = $(local_srcs:.c=.o)
+
+common_objs = $(addprefix $(OUT_DIR)/,$(local_objs))
+
+$(OUT_DIR)/%.o: %.c
+	$(CC) -c $(CFLAGS) -I$(TARGET_DIR)/include $(LOCAL_INC) $< -o $@ 
+
+all: $(common_objs)
+

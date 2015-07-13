@@ -1,0 +1,3 @@
+S_SRC := 
+
+C_SRC := rdabt_hcit_uart.c rdabt_uart.c rdabt_uart_drv.c rdabt_hcit.c  rdabt_main.c  rdabt_papi.c

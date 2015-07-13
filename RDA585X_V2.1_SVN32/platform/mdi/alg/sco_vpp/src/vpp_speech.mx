@@ -1,0 +1,26 @@
+%include:
+{vppp_speech_const_map.h, vppp_speech_sections.h, vppp_speech_common.h}
+
+%mode:
+{aec:	 vpp_speech_asm_main.c, vpp_speech_asm_aec.c}
+
+%start
+{0, 1488}
+
+%map
+{	
+  COMMON_GLOBAL{
+    vpp_speech_asm_main.global
+  }
+
+  AEC_GLOBAL{
+	vpp_speech_asm_aec.global
+  }
+  AEC_LOCAL  {
+	vpp_speech_asm_aec.local
+  }
+
+  COMMON_LOCAL{
+  	vpp_speech_asm_main.local
+  }
+}

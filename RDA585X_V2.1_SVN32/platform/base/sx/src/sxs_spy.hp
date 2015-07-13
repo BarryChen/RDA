@@ -1,0 +1,60 @@
+/*
+================================================================================
+
+  This source code is property of StackCom. The information contained in this
+  file is confidential. Distribution, reproduction, as well as exploitation,or
+  transmisison of any content of this file is not allowed except if expressly
+  permitted. Infringements result in damage claims.
+
+  Copyright StackCom (c) 2003
+
+================================================================================
+*/
+
+/*
+================================================================================
+  File         sxs_spy.hp
+--------------------------------------------------------------------------------
+
+  Scope      : Spy management private header file.
+
+  History    :
+--------------------------------------------------------------------------------
+ Aug 13 2003 |  ADA  | Creation
+ Nov 14 2005 |  ADA  | Add Spy user Id.
+ Nov 28 2005 |  MCE  | Changed SXS_SPY_NB_MAX from 7 to 8
+ Dec 15 2005 |  ADA  | Move SXS_SPY_NB_MAX in sxr_cnf.h
+================================================================================
+*/
+
+#ifndef __SXS_SPY_HP__
+#define __SXS_SPY_HP__
+
+#include "sxs_type.h"
+#include "sxr_cnf.h"
+
+
+typedef struct
+{
+ const ascii  *Name;
+ const ascii *const *Str;
+ u16           StrLen;
+ s16          *Data;
+ s16          *LastData;
+ u32           DispatchFields;
+ void        (*DispatchFunction)(u8, u8, u16 *);
+ u8            DispatchDataOffset;
+ u8            Enable;
+ u8            Size;
+ u8            UsrId;
+} sxs_SpyDesc_t;
+
+struct
+{
+ sxs_SpyDesc_t Desc [SXS_SPY_NB_MAX];
+ u8 Idx;
+ u8 CurIdx;
+} sxs_Spy;
+
+#endif
+

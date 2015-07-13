@@ -1,0 +1,14 @@
+V_SRC = \
+src/vpp_speech_asm_aec.c\
+src/vpp_speech_asm_main.c\
+src/vppp_speech_common.h\
+src/vppp_speech_const_map.h\
+src/vppp_speech_sections.h\
+/cygdrive/c/projects/bv5_0808/soft/platform/chip/regs/8808/include/voc_ram.h \
+
+V_OBJ = \
+src/vpp_speech_asm_aec.tab\
+src/vpp_speech_asm_main.tab\
+src/vppp_speech_asm_map.h \
+src/vppp_speech_map.h \
+src/vpp_speech.vocsrcs

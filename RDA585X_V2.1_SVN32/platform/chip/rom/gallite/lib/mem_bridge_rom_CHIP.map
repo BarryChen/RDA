@@ -1,0 +1,783 @@
+Archive member included because of file (symbol)
+
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(atoi.o)
+                              (atoi)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(ctype.o)
+                              (_ctype)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memchr.o)
+                              (memchr)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memcmp.o)
+                              (memcmp)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memcpy.o)
+                              (memcpy)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memmove.o)
+                              (memmove)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memscan.o)
+                              (memscan)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strcat.o)
+                              (strcat)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strchr.o)
+                              (strchr)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strcmp.o)
+                              (strcmp)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strcpy.o)
+                              (strcpy)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strlen.o)
+                              (strlen)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strncat.o)
+                              (strncat)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strncmp.o)
+                              (strncmp)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strncpy.o)
+                              (strncpy)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strnicmp.o)
+                              (strnicmp)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strsep.o)
+                              (strsep)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strstr.o)
+                              (strstr)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(vsscanf.o)
+                              (vsscanf)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strtol.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(vsscanf.o) (strtol)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strtoul.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(vsscanf.o) (strtoul)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(bcpu_rom.o)
+                              (__bcpu_start)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cache.o)
+                              (spal_InvalidateDcache)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cfg.o)
+                              (spal_Open)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_debug.o)
+                              (spal_DbgHstSendEvent)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cfg.o) (g_spalIrqRegistry)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq_handler.o)
+                              (__bb_int_handler)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_itlv.o)
+                              (spal_ItlvItlv)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_version.o)
+                              (g_spalMapVersion)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_vitac.o)
+                              (spal_VitacBusy)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_xcor.o)
+                              (spal_XcorTscxcNb)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_rx.o)
+                              (spc_AmrDecode)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_tx.o)
+                              (spc_UpdateAmrCfg)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_irq_handler.o)
+                              (spc_IrqHandler)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_mailbox.o)
+                              (g_mailbox)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_rx.o)
+                              (spc_RxProcess)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_scheduler.o)
+                              (g_spcCtxStruct)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tables.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_rx.o) (AHSfilterCI)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tx.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_scheduler.o) (spc_UpdateOnFint)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_version.o)
+                              (g_spcMapVersion)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cfg.o)
+                              (spp_Open)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cipher.o)
+                              (spp_CipherCountInit)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_fcch_detect.o)
+                              (spp_FcchDetect)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_fcch_detect_asm.o)
+                              (spp_FcchDetectAsm)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_amr_rx.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_rx.o) (spp_GetAmrIc)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_decoder.o)
+                              (spp_DecodeBlock)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_equalizer.o)
+                              (spp_EqualizeNBurst)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_rx.o)
+                              (spp_SearchFcch)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_tables.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_decoder.o) (g_sppCsPuncturingTable)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_tx.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tx.o) (spp_EncodeABurst)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_math.o)
+                              (spp_10log10)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_misc.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_equalizer.o) (spp_FullBurstReady)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_pch_detect.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_rx.o) (spp_DetectDummyPCH)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_version.o)
+                              (g_sppMapVersion)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(bcpu_ram.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq_handler.o) (bcpu_sp_context)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cap_cp2.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_decoder.o) (spal_CapDecodeCrc)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cipher.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cipher.o) (spal_CipherCountInit)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq_handler.o) (spal_GdbGBreak)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb_stub.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cfg.o) (spal_GdbOpen)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_ifc.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_tx.o) (spal_IfcTxFifoReset)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_monitor.o)
+                              (boot_Monitor)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_ram.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_monitor.o) (g_bootBootMode)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_rom.o)
+                              (__xcpu_start)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_rom_version.o)
+                              (g_bootRomVersionNumber)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_romstring.o)
+                              (boot_romCsString)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_test.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_rom.o) (boot_FunctionalTest)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_uart_monitor.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_monitor.o) (g_bootUartMonitorBrDetected)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb.o)
+                              (boot_UsbSend)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb_monitor.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_monitor.o) (boot_HostUsbDeviceCallback)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_bist.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_test.o) (boot_BistStep1)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_host.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb_monitor.o) (boot_HstMonitorXCtx)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_irq_dispatch.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_rom.o) (boot_IrqDispatch)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_ispi.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_monitor.o) (boot_IspiOpen)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_march_c_bbcp2.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_bist.o) (boot_MarchCBBCp2)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/vpp/lib/libvpp_cool_profile.a(vpp_speech_asm.o)
+                              (g_vppAmrCode)
+/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memset.o)
+                              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tx.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_BootUsbVar        0x5c              /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb.o)
+g_bootUartMonitorBaudRate
+                    0x4               /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_uart_monitor.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform_test/rom/int_rom_programmer/obj/cool_profile/stub.o
+
+.internal_rom   0xffffffff81e00000    0x13f90 load address 0xffffffff81e00000
+                0xffffffff81e00000                __int_rom_main = .
+                0xffffffff81e00000                _int_rom_start = .
+ *boot_rom.o(.text)
+ .text          0xffffffff81e00000      0x500 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_rom.o)
+                0xffffffff81e00320                boot_DbgExlTrigFunction0
+                0xffffffff81e00180                _boot_IrqHandler
+                0xffffffff81e002c0                boot_HstMonitorX
+                0xffffffff81e00480                initial_stack_top_var
+                0xffffffff81e0047c                monitor_entry
+                0xffffffff81e004a8                boot_DisableInterrupt
+                0xffffffff81e00000                __xcpu_start
+                0xffffffff81e00484                boot_FlushCache
+ *boot_rom.o(.rdata)
+ *boot_rom.o(.rodata .rodata.str1.4)
+ *boot_monitor.o(.text)
+ .text          0xffffffff81e00500      0x184 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_monitor.o)
+                0xffffffff81e00641                boot_Monitor
+                0xffffffff81e00501                boot_MonitorDoMonitoring
+ *boot_monitor.o(.rdata)
+ *boot_monitor.o(.rodata .rodata.str1.4)
+ *boot_host.o(.text)
+ .text          0xffffffff81e00684      0x124 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_host.o)
+                0xffffffff81e00685                mon_Event
+                0xffffffff81e006cd                boot_HstCmdBasicHandler
+                0xffffffff81e0072d                boot_HstMonitor
+ *boot_host.o(.rdata)
+ *boot_host.o(.rodata .rodata.str1.4)
+ *memcpy.o(.text .rdata .rodata .rodata.str1.4)
+ *fill*         0xffffffff81e007a8 0x8965c00000008 00
+ .text          0xffffffff81e007b0      0x140 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memcpy.o)
+                0xffffffff81e007b1                memcpy
+ *memset.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e008f0       0x60 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memset.o)
+                0xffffffff81e008f1                memset
+ *spp_math.o(.text .rodata .rodata.str1.4)
+ .text          0xffffffff81e00950      0x1a0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_math.o)
+                0xffffffff81e00a51                spp_DivL
+                0xffffffff81e00951                spp_10log10
+                0xffffffff81e009d1                spp_Log2
+ *spc_tables.o(.text .rodata .rodata.str1.4)
+ .rodata        0xffffffff81e00af0      0x1c0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tables.o)
+                0xffffffff81e00b60                MutedFrame_AMR
+                0xffffffff81e00b50                MutedFrame_HR
+                0xffffffff81e00af0                spcSizeFromMCS
+                0xffffffff81e00be0                AFSfilterCI
+                0xffffffff81e00b30                MutedFrame_EFR
+                0xffffffff81e00b70                AHSfilterCI
+                0xffffffff81e00b00                MutedFrame_FR
+ *boot_romstring.o(.text .rdata .rodata .rodata.str1.4)
+ .rodata        0xffffffff81e00cb0      0x140 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_romstring.o)
+                0xffffffff81e00db0                boot_romCsString
+                0xffffffff81e00cb0                boot_romDT
+                0xffffffff81e00ff8                . = 0xff8
+ *fill*         0xffffffff81e00df0 0x81e00df000000208 00
+ *boot_usb.o(.usbFixptr)
+ .usbFixptr     0xffffffff81e00ff8        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb.o)
+                0xffffffff81e00ffc                . = 0xffc
+ *boot_usb_monitor.o(.usbmonitorFixptr)
+ .usbmonitorFixptr
+                0xffffffff81e00ffc        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb_monitor.o)
+                0xffffffff81e00ffc                g_BootHostUsbFixPtr
+                0xffffffff81e01000                . = 0x1000
+ *bcpu_rom.o(.text)
+ .text          0xffffffff81e01000       0x54 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(bcpu_rom.o)
+                0xffffffff81e01024                __bcpu_init
+                0xffffffff81e01000                __bcpu_start
+ *bcpu_rom.o(.rdata)
+ *bcpu_rom.o(.rodata .rodata.str1.4)
+ *boot_irq_dispatch.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e01054       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_irq_dispatch.o)
+                0xffffffff81e01055                boot_IrqDispatch
+ *spal_cipher.o(.text .rodata .rodata.str1.4)
+ *fill*         0xffffffff81e01084 0x8965c0000000c 00
+ .text          0xffffffff81e01090       0xe0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cipher.o)
+                0xffffffff81e01131                spal_CipherDecipherNb
+                0xffffffff81e01091                spal_CipherCountInit
+                0xffffffff81e010e1                spal_CipherCipherNb
+                0xffffffff81e010b1                spal_CipherStart
+                0xffffffff81e01180                . = 0x1180
+ *fill*         0xffffffff81e01170 0x81e0117000000010 00
+ *spal_irq_handler.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e01180      0x2ec /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq_handler.o)
+                0xffffffff81e01180                __bb_int_handler
+                0xffffffff81e01438                spal_BbGetSp
+                0xffffffff81e01440                spal_IrqInit
+ *boot_ispi.o(.text .rodata .rodata.str1.4)
+ .text          0xffffffff81e0146c      0x53c /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_ispi.o)
+                0xffffffff81e017a9                boot_IspiTxFifoAvail
+                0xffffffff81e016bd                boot_IspiRxIfcChannelRelease
+                0xffffffff81e016d5                boot_IspiTxIfcChannelRelease
+                0xffffffff81e017c5                boot_IspiTxDmaDone
+                0xffffffff81e017f5                boot_IspiTxFinished
+                0xffffffff81e01991                boot_IspiGetRxIfcTc
+                0xffffffff81e01509                boot_IspiOpen
+                0xffffffff81e0184d                boot_IspiGetDataBuffer
+                0xffffffff81e01901                boot_IspiForcePin
+                0xffffffff81e018b9                boot_IspiRxFifoLevel
+                0xffffffff81e0181d                boot_IspiGetData
+                0xffffffff81e01651                boot_IspiClearRxDmaDone
+                0xffffffff81e016ed                boot_IspiSendData
+                0xffffffff81e01661                boot_IspiClearTxDmaDone
+                0xffffffff81e01671                boot_IspiClose
+                0xffffffff81e018d1                boot_IspiRxDmaDone
+                0xffffffff81e0173d                boot_IspiSendDataBuffer
+                0xffffffff81e0163d                boot_IspiFlushFifos
+                0xffffffff81e0146d                boot_IspiGetRomedCfg
+ .rodata        0xffffffff81e019a8       0x24 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_ispi.o)
+                0xffffffff81e019a8                g_bootIspiRomedCfg
+ *boot_uart_monitor.o(.text .rodata .rodata.str1.4)
+ .text          0xffffffff81e019cc      0xa58 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_uart_monitor.o)
+                0xffffffff81e019cd                boot_UartMonitorGetBaudRate
+                0xffffffff81e0224d                boot_UartMonitor
+                0xffffffff81e01bc1                boot_UartMonitorTimeOut
+                0xffffffff81e01be9                boot_UartMonitorWriteProcess
+                0xffffffff81e01a5d                boot_UartMonitorGet
+                0xffffffff81e01b25                boot_UartMonitorAck
+                0xffffffff81e01ad5                boot_UartMonitorOpen
+                0xffffffff81e01b11                boot_UartMonitorClose
+                0xffffffff81e0218d                boot_UartMonitorProcess
+                0xffffffff81e0212d                boot_UartMonitorExitProcess
+                0xffffffff81e01d79                boot_UartMonitorRpcProcess
+                0xffffffff81e01eed                boot_UartMonitorReadProcess
+                0xffffffff81e019e1                boot_UartMonitorSend
+ *boot_usb.o(.text .rodata .rodata.str1.4)
+ .text          0xffffffff81e02424     0x16ac /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb.o)
+                0xffffffff81e035a5                boot_UsbInitVar
+                0xffffffff81e02afd                boot_UsbSend
+                0xffffffff81e02595                boot_UsbCancelTransfert
+                0xffffffff81e02b95                boot_UsbEpStall
+                0xffffffff81e035cd                boot_UsbIrqHandler
+                0xffffffff81e03a6d                boot_UsbClose
+                0xffffffff81e038c9                boot_UsbOpen
+                0xffffffff81e0394d                boot_UsbEpEnableInterrupt
+                0xffffffff81e02465                boot_UsbResetTransfert
+                0xffffffff81e039a1                boot_UsbEpRxTransferedSize
+                0xffffffff81e038e9                boot_UsbCompletedCommand
+                0xffffffff81e02b4d                boot_UsbRecv
+                0xffffffff81e039bd                boot_UsbEpTransfertDone
+                0xffffffff81e025c1                boot_UsbContinueTransfert
+                0xffffffff81e0249d                boot_UsbStartTransfert
+                0xffffffff81e03aa9                boot_UsbReset
+ *boot_usb_monitor.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e03ad0      0x7f0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb_monitor.o)
+                0xffffffff81e040a9                boot_HostUsbClose
+                0xffffffff81e03b95                boot_HostUsbEvent
+                0xffffffff81e040bd                boot_HostUsbSend
+                0xffffffff81e03b0d                boot_HostUsbInit
+                0xffffffff81e04035                boot_HostUsbClockEnable
+                0xffffffff81e04071                boot_HostUsbOpen
+                0xffffffff81e03b89                boot_HostUsbDeviceCallback
+                0xffffffff81e04219                boot_HostUsbRecv
+ .rodata        0xffffffff81e042c0       0x7c /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb_monitor.o)
+                0xffffffff81e042c0                boot_HostUsbInterface
+ *spal_gdb*.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e0433c       0x10 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb.o)
+                0xffffffff81e0433c                spal_DbgGdbPrintf
+ .rodata        0xffffffff81e0434c       0x40 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb.o)
+                0xffffffff81e0434c                spal_GdbGBreak
+ *fill*         0xffffffff81e0438c        0x4 00
+ .text          0xffffffff81e04390      0xae0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb_stub.o)
+                0xffffffff81e04431                spal_GdbBreakPrint
+                0xffffffff81e04a91                spal_GdbLoop
+                0xffffffff81e04dd1                spal_GdbBreakBreakPoint
+                0xffffffff81e04ce1                spal_GdbIrqDebug
+                0xffffffff81e04851                spal_Gdb32Step
+                0xffffffff81e044f1                spal_Gdb16Step
+                0xffffffff81e04a41                spal_Gdb16EndStep
+                0xffffffff81e04e11                spal_GdbBreakDivBy0
+                0xffffffff81e04a71                spal_Gdb32EndStep
+                0xffffffff81e043b1                spal_GdbOpen
+                0xffffffff81e044a1                spal_GdbPrepare
+                0xffffffff81e04d81                spal_GdbBreakSoftBreakPoint
+                0xffffffff81e044c1                spal_GdbSendcmd
+                0xffffffff81e04d31                spal_GdbBreakRaise
+                0xffffffff81e04391                spal_DbgGdbHstSendEvent
+                0xffffffff81e04401                spal_GdbBreaks
+                0xffffffff81e04c61                spal_GdbException
+ .rodata        0xffffffff81e04e70        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb_stub.o)
+ *spal_debug.o(.text .rdata .rodata .rodata.str1.4)
+ *fill*         0xffffffff81e04e74 0x8965c0000000c 00
+ .text          0xffffffff81e04e80       0xa0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_debug.o)
+                0xffffffff81e04e81                spal_DbgPxtsDump
+                0xffffffff81e04ec1                spal_DbgHstSendEvent
+ *spp_cipher.o(.text .rodata .rodata.str1.4)
+ .text          0xffffffff81e04f20       0x50 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cipher.o)
+                0xffffffff81e04f21                spp_CipherCountInit
+                0xffffffff81e04f61                spp_CipherDecipherNb
+                0xffffffff81e04f31                spp_CipherStart
+                0xffffffff81e04f51                spp_CipherCipherNb
+ *spp_fcch_detect_asm.o(.text .rodata .rodata.str1.4)
+ .text          0xffffffff81e04f70      0x3fc /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_fcch_detect_asm.o)
+                0xffffffff81e04f70                spp_FcchDetectAsm
+ *spp_*.o(.text .rodata .rodata.str1.4)
+ *fill*         0xffffffff81e0536c 0x8965c00000004 00
+ .text          0xffffffff81e05370       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cfg.o)
+                0xffffffff81e05371                spp_Open
+ .text          0xffffffff81e053a0      0x310 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_fcch_detect.o)
+                0xffffffff81e053a0                spp_FcchDetect
+ .text          0xffffffff81e056b0      0x5b0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_amr_rx.o)
+                0xffffffff81e056b1                spp_GetAmrIc
+                0xffffffff81e057d1                spp_SearchAmrMarker
+ .text          0xffffffff81e05c60     0x1c40 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_decoder.o)
+                0xffffffff81e05c61                spp_ReorderFR_EFR
+                0xffffffff81e06101                spp_DecodeBlock
+ .text          0xffffffff81e078a0      0xd90 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_equalizer.o)
+                0xffffffff81e08471                spp_EqualizeDecodeSch
+                0xffffffff81e078a1                spp_TofSearch
+                0xffffffff81e082f1                spp_EqualizeNBurst
+ .rodata        0xffffffff81e08630        0x8 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_equalizer.o)
+ *fill*         0xffffffff81e08638        0x8 00
+ .text          0xffffffff81e08640      0xa80 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_rx.o)
+                0xffffffff81e08e51                spp_GetMonPower
+                0xffffffff81e08ea1                spp_GetChannelType
+                0xffffffff81e08d11                spp_DecodeStealingBits
+                0xffffffff81e08ba1                spp_DeinterleaveBlock
+                0xffffffff81e08bf1                spp_GetUSF
+                0xffffffff81e08641                spp_SearchFcch
+ .rodata        0xffffffff81e090c0       0x18 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_rx.o)
+ *fill*         0xffffffff81e090d8        0x8 00
+ .rodata        0xffffffff81e090e0     0x2060 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_tables.o)
+                0xffffffff81e0a0f8                g_sppConvOutLengthBitAhs
+                0xffffffff81e0a1a0                g_sppImAfsSid
+                0xffffffff81e0ad10                g_sppVitacDecParam
+                0xffffffff81e0afd0                g_sppCsCrcParam
+                0xffffffff81e0a218                g_sppGsmTscSch
+                0xffffffff81e0a7a0                g_sppAhsReorderTables
+                0xffffffff81e0a220                g_sppNbBwequStartSt
+                0xffffffff81e0a4b0                g_sppMatrixFrInv
+                0xffffffff81e0a180                g_sppImAhsSid
+                0xffffffff81e0a1c0                g_sppIcAfsSpeech
+                0xffffffff81e0aae0                g_sppInputLengthBitAhs
+                0xffffffff81e0a46c                g_sppMatrixEfr1
+                0xffffffff81e0aaf0                g_sppAfsReorderTables
+                0xffffffff81e0a1c4                g_sppIcSidRatscch
+                0xffffffff81e09920                g_sppChestTab
+                0xffffffff81e0a0e0                g_sppConvOutMaskAhs
+                0xffffffff81e090e0                g_sppCsPuncturingTable
+                0xffffffff81e0a1d0                g_spp_UsfCs4
+                0xffffffff81e0acdc                g_sppInputLengthBitAfs
+                0xffffffff81e0a1bc                g_sppIcAhsSpeech
+                0xffffffff81e0a228                g_sppNbFwequStartSt
+                0xffffffff81e0a6c0                g_sppMatrixHr
+                0xffffffff81e0a120                g_sppAhsSidMarker
+                0xffffffff81e0add0                g_sppCsSrcParam
+                0xffffffff81e0ae60                g_sppCsConvParam
+                0xffffffff81e0a210                g_sppGsmTscAburst
+                0xffffffff81e0a100                g_sppRatscchMarker
+                0xffffffff81e0a160                g_sppImRatscch
+                0xffffffff81e0a1e0                g_sppUsfCs2Cs3
+                0xffffffff81e0a140                g_sppAfsSidMarker
+                0xffffffff81e0a428                g_sppMatrixEfr1Inv
+                0xffffffff81e0a230                g_sppMatrixEfr2Inv
+                0xffffffff81e0a1f0                g_sppGsmTscNburst
+                0xffffffff81e0acf0                g_sppVitacPolyres
+ .text          0xffffffff81e0b140     0x1f70 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_tx.o)
+                0xffffffff81e0cd91                spp_BuildNBurst
+                0xffffffff81e0ce51                spp_Modulation
+                0xffffffff81e0b141                spp_EncodeABurst
+                0xffffffff81e0b291                spp_EncodeBlock
+ .text          0xffffffff81e0d0b0       0x80 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_misc.o)
+                0xffffffff81e0d0c1                spp_ResetFullBurstReady
+                0xffffffff81e0d0b1                spp_FullBurstReady
+                0xffffffff81e0d101                spp_OneFullBurstDone
+                0xffffffff81e0d0d1                spp_OneFullBurstReady
+ .text          0xffffffff81e0d130      0x170 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_pch_detect.o)
+                0xffffffff81e0d131                spp_DetectDummyPCH
+ .rodata        0xffffffff81e0d2a0      0x310 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_pch_detect.o)
+                0xffffffff81e0d34c                g_sppPCH_vector_b3
+                0xffffffff81e0d2a4                g_sppPCH_b_pos
+                0xffffffff81e0d450                g_sppPCH_vector_a
+                0xffffffff81e0d3f4                g_sppPCH_vector_b1
+                0xffffffff81e0d3a0                g_sppPCH_vector_b2
+                0xffffffff81e0d2a0                g_sppPCH_size_vector_b
+                0xffffffff81e0d2f8                g_sppPCH_vector_b4
+ .text          0xffffffff81e0d5b0       0x44 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_version.o)
+ .rodata        0xffffffff81e0d5f4       0x10 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_version.o)
+                0xffffffff81e0d5f4                g_sppMapVersion
+ *spal_*.o(.text .rodata .rodata.str1.4)
+ *fill*         0xffffffff81e0d604 0x8965c0000000c 00
+ .text          0xffffffff81e0d610       0x60 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cache.o)
+                0xffffffff81e0d610                spal_InvalidateDcache
+                0xffffffff81e0d640                spal_InvalidateCache
+ .text          0xffffffff81e0d670       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cfg.o)
+                0xffffffff81e0d671                spal_Open
+ .text          0xffffffff81e0d6a0      0x130 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq.o)
+                0xffffffff81e0d6a1                spal_IrqSetMask
+                0xffffffff81e0d6c1                spal_IrqHandler
+ .text          0xffffffff81e0d7d0       0xd0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_itlv.o)
+                0xffffffff81e0d7f1                spal_ItlvItlv
+                0xffffffff81e0d891                spal_ItlvIntClear
+                0xffffffff81e0d7d1                spal_ItlvBusy
+                0xffffffff81e0d841                spal_ItlvDitlv
+ .text          0xffffffff81e0d8a0       0x20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_version.o)
+ .rodata        0xffffffff81e0d8c0       0x10 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_version.o)
+                0xffffffff81e0d8c0                g_spalMapVersion
+ .text          0xffffffff81e0d8d0      0x280 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_vitac.o)
+                0xffffffff81e0d8d1                spal_VitacBusy
+                0xffffffff81e0d8f1                spal_VitacEqualize
+                0xffffffff81e0d9e1                spal_VitacFullDecoding
+ .text          0xffffffff81e0db50      0x6f0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_xcor.o)
+                0xffffffff81e0dfa1                spal_XcorErrCalc
+                0xffffffff81e0e031                spal_XcorDcoc
+                0xffffffff81e0dba1                spal_XcorTscxcSch
+                0xffffffff81e0dfd1                spal_XcorIcorCalc
+                0xffffffff81e0de21                spal_XcorSrec
+                0xffffffff81e0db71                spal_XcorTscxcNb
+                0xffffffff81e0dd91                spal_XcorChest
+                0xffffffff81e0e001                spal_XcorHvextract
+                0xffffffff81e0de81                spal_XcorBmsum
+                0xffffffff81e0e1d1                spal_XcorDcocHburst
+                0xffffffff81e0dd51                spal_XcorBiterror
+                0xffffffff81e0dbe1                spal_XcorFchxc
+ .text          0xffffffff81e0e240      0x3f0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_cap_cp2.o)
+                0xffffffff81e0e4b0                spal_CapConvSrc
+                0xffffffff81e0e3c0                spal_CapConvoluate
+                0xffffffff81e0e240                spal_CapDecodeCrc
+                0xffffffff81e0e300                spal_CapEncodeCrc
+                0xffffffff81e0e570                spal_CapFireCorrection
+ .text          0xffffffff81e0e630       0x70 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_ifc.o)
+                0xffffffff81e0e681                spal_IfcParamRf
+                0xffffffff81e0e631                spal_IfcTxFifoReset
+                0xffffffff81e0e641                spal_IfcTxFifoSetup
+                0xffffffff81e0e661                spal_IfcDisableRf
+ *spc_amr_tx.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e0e6a0      0x9b0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_tx.o)
+                0xffffffff81e0ee61                spc_AmrEncode
+                0xffffffff81e0e6a1                spc_UpdateAmrCfg
+                0xffffffff81e0ebc1                spc_AFSencoding
+                0xffffffff81e0e7f1                spc_AHSencoding
+ *spc_amr_rx.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e0f050     0x11f0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_rx.o)
+                0xffffffff81e0fc01                spc_AmrDecode
+                0xffffffff81e0f7f1                spc_AFSdecoding
+                0xffffffff81e0f051                spc_AmrRatscch
+                0xffffffff81e0f181                spc_UpdateCMR
+                0xffffffff81e0f261                spc_AHSdecoding
+ .rodata        0xffffffff81e10240        0x8 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_rx.o)
+ *spc_irq_handler.o(.text .rdata .rodata .rodata.str1.4)
+ *fill*         0xffffffff81e10248 0x8965c00000008 00
+ .text          0xffffffff81e10250      0x300 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_irq_handler.o)
+                0xffffffff81e10251                bb_prog_rx_win
+                0xffffffff81e103d1                spc_IrqHandler
+ *spc_mailbox.o(.text .rdata .rodata .rodata.str1.4)
+ *spc_rx.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e10550     0x16e0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_rx.o)
+                0xffffffff81e105a1                spc_RxProcess
+ .rodata        0xffffffff81e11c30       0x10 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_rx.o)
+ *spc_scheduler.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e11c40      0x3f0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_scheduler.o)
+                0xffffffff81e11c41                spc_SchedulerMain
+ *spc_tx.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e12030     0x10a0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tx.o)
+                0xffffffff81e125a1                spc_CCHTxProcess
+                0xffffffff81e127c1                spc_EgprsCCHTxProcess
+                0xffffffff81e12421                spc_MboxToSppSpeechMode
+                0xffffffff81e127d1                spc_TCHTxProcess
+                0xffffffff81e13021                spc_TxProcess
+                0xffffffff81e12031                spc_UpdateOnFint
+                0xffffffff81e124a1                spc_RACHTxProcess
+ *spc_version.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e130d0       0x44 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_version.o)
+ .rodata        0xffffffff81e13114       0x10 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_version.o)
+                0xffffffff81e13114                g_spcMapVersion
+ *boot_test.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13124       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_test.o)
+                0xffffffff81e13124                boot_FunctionalTest
+ *boot_bist.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13154      0x6d8 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_bist.o)
+                0xffffffff81e13221                boot_BistSysScheduler
+                0xffffffff81e132f9                boot_BistMemScheduler
+                0xffffffff81e133c9                boot_BistStep1
+                0xffffffff81e137e1                boot_BistBCpu
+                0xffffffff81e13381                boot_BistMemStep1
+                0xffffffff81e13155                boot_BistBBScheduler
+                0xffffffff81e134a5                boot_MarchCTcu
+                0xffffffff81e1344d                boot_BistStep2
+ *fill*         0xffffffff81e1382c        0x4 00
+ .rodata        0xffffffff81e13830      0x110 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_bist.o)
+                0xffffffff81e138d0                g_bootBistBBConf
+                0xffffffff81e13830                g_bootBistSysConf
+ *boot_march_c_bbcp2.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13940      0x1c0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_march_c_bbcp2.o)
+                0xffffffff81e13940                boot_MarchCBBCp2
+ *(.internal_rom)
+ *atoi.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13b00       0x50 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(atoi.o)
+                0xffffffff81e13b01                atoi
+ *strlen.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13b50       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strlen.o)
+                0xffffffff81e13b61                strnlen
+                0xffffffff81e13b51                strlen
+ *ctype.o(.text .rdata .rodata .rodata.str1.4)
+ .rodata        0xffffffff81e13b80      0x100 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(ctype.o)
+                0xffffffff81e13b80                _ctype
+ *memmove.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13c80       0xd0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memmove.o)
+                0xffffffff81e13c81                memmove
+ *memscan.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13d50       0x20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memscan.o)
+                0xffffffff81e13d51                memscan
+ *strcat.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13d70       0x20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strcat.o)
+                0xffffffff81e13d71                strcat
+ *strncpy.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13d90       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strncpy.o)
+                0xffffffff81e13d91                strncpy
+ *strsep.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13dc0       0x40 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strsep.o)
+                0xffffffff81e13dc1                strsep
+ *strstr.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13e00       0x50 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strstr.o)
+                0xffffffff81e13e01                strstr
+ *strcmp.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13e50       0x40 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strcmp.o)
+                0xffffffff81e13e51                strcmp
+ *strcpy.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13e90       0x20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strcpy.o)
+                0xffffffff81e13e91                strcpy
+ *strncmp.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13eb0       0x40 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strncmp.o)
+                0xffffffff81e13eb1                strncmp
+ *strchr.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13ef0       0x50 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(strchr.o)
+                0xffffffff81e13f21                strrchr
+                0xffffffff81e13ef1                strchr
+ *memchr.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13f40       0x20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memchr.o)
+                0xffffffff81e13f41                memchr
+ *memcmp.o(.text .rdata .rodata .rodata.str1.4)
+ .text          0xffffffff81e13f60       0x30 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a(memcmp.o)
+                0xffffffff81e13f61                memcmp
+                0xffffffff81e13f90                . = ALIGN (0x10)
+                0xffffffff81e13f90                __int_rom_end = .
+
+.rom_entries_cached
+                0xffffffff81c000a0      0x148 load address 0xffffffff81c000a0
+                0xffffffff81c000a0                _hstMonitorXCtx_start = .
+ *boot_host.o(.sram_hst_monitor_ctx)
+ .sram_hst_monitor_ctx
+                0xffffffff81c000a0       0x18 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_host.o)
+                0xffffffff81c000b4                boot_HstMonitorExtendedHandler
+                0xffffffff81c000a0                boot_HstMonitorXCtx
+ *boot_host.o(.data .bss)
+ *boot_ram.o(.data)
+ .data          0xffffffff81c000b8       0x18 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_ram.o)
+                0xffffffff81c000c8                g_bootResetCause
+                0xffffffff81c000bc                xcpu_error_status
+                0xffffffff81c000c4                sxr_IrqStack_pointer
+                0xffffffff81c000c0                xcpu_sp_context
+                0xffffffff81c000b8                xcpu_error_code
+                0xffffffff81c000cc                g_bootBootMode
+ *boot_uart_monitor.o(.data .bss .scommon)
+ .bss           0xffffffff81c000d0        0x1 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_uart_monitor.o)
+                0xffffffff81c000d0                g_bootUartMonitorBrDetected
+ *fill*         0xffffffff81c000d1        0x3 00
+ .scommon       0xffffffff81c000d4        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_uart_monitor.o)
+                                          0x0 (size before relaxing)
+                0xffffffff81c000d4                g_bootUartMonitorBaudRate
+ *boot_rom.o(.data .bss)
+ *boot_monitor.o(.data .bss)
+ *boot_ram.o(.data .bss)
+ *memcpy.o(.data .bss)
+ *memset.o(.data .bss)
+ *boot_uart_monitor.o(.data .bss)
+ *strlen.o(.data .bss)
+ *memmove.o(.data .bss)
+ *atoi.o(.data .bss)
+ *ctype.o(.data .bss)
+ *memchr.o(.data .bss)
+ *memcmp.o(.data .bss)
+ *memscan.o(.data .bss)
+ *strcat.o(.data .bss)
+ *strchr.o(.data .bss)
+ *strcmp.o(.data .bss)
+ *strcpy.o(.data .bss)
+ *strncat.o(.data .bss)
+ *strncmp.o(.data .bss)
+ *strncpy.o(.data .bss)
+ *strnicmp.o(.data .bss)
+ *strsep.o(.data .bss)
+ *strstr.o(.data .bss)
+ *boot_ispi.o(.bss .sramdata .data)
+ .data          0xffffffff81c000d8        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_ispi.o)
+ *boot_usb.o(.bss .sramdata .data COMMON)
+ *fill*         0xffffffff81c000dc 0x8965c00000004 00
+ .bss           0xffffffff81c000e0       0x80 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb.o)
+ COMMON         0xffffffff81c00160       0x5c /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb.o)
+                                          0x0 (size before relaxing)
+                0xffffffff81c00160                g_BootUsbVar
+ *boot_usb_monitor.o(.bss .data)
+ *fill*         0xffffffff81c001bc 0x8965c00000004 00
+ .bss           0xffffffff81c001c0       0x28 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_usb_monitor.o)
+ *boot_irq_dispatch.o(.bss .data)
+                0xffffffff81c001e8                _int_sram_romed_for_bcpu_start = .
+ *spp*.o(.data .bss COMMON)
+ *spal_*.o(.data .bss COMMON)
+ *spc_*.o(.data .bss COMMON)
+ *bcpu_*.o(.data .bss COMMON)
+                0xffffffff81c001e8                _int_sram_romed_for_bcpu_end = .
+                0xffffffff81c001e8                __int_rom_reserved_end = .
+                *undef*                           ASSERT ((<code 336> (__int_rom_reserved_end) <= 0xffffffff81c00280), RRRO)
+
+.bbsram         0xffffffff81980000     0x13f0 load address 0xffffffff81980000
+                0xffffffff81980000                _bb_sram_romed_start = .
+                0xffffffff81980000                _bb_sram_romed_cached_start = .
+ *(BB_ITLV_SECTION)
+ BB_ITLV_SECTION
+                0xffffffff81980000      0xf20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_scheduler.o)
+                0xffffffff81980000                g_spcItlvBufTab
+                0xffffffff81980f20                . = ALIGN (0x4)
+                0xffffffff81980f20                _bb_sram_romed_itlv_buf_end = .
+ *(BB_SPC_CTX_SECTION)
+ BB_SPC_CTX_SECTION
+                0xffffffff81980f20      0x4cc /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_scheduler.o)
+                0xffffffff81980f20                g_spcCtxStruct
+                0xffffffff819813f0                . = ALIGN (0x10)
+ *fill*         0xffffffff819813ec 0x819813ec00000004 00
+                0xffffffff819813f0                _bb_sram_romed_cached_end = .
+                0x00000000000013f0                _bb_sram_romed_cached_size = (_bb_sram_romed_cached_end - _bb_sram_romed_cached_start)
+                0xffffffffa19813f0                . = (. + 0x20000000)
+
+.bbsramu        0xffffffffa19813f0      0xcc0 load address 0xffffffffa19813f0
+                0xffffffffa19813f0                _bb_sram_romed_uncached_start = .
+                0xffffffffa19813f0                . = ALIGN (0x10)
+                0xffffffffa19813f0                _mbbsramu = .
+ *(BB_STATIC_SECTION)
+ BB_STATIC_SECTION
+                0xffffffffa19813f0      0xcc0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_scheduler.o)
+                0xffffffffa19813f0                g_spcStaticBufTab
+                0xffffffffa19820b0                . = ALIGN (0x10)
+                0xffffffffa19820b0                _bb_sram_romed_uncached_end = .
+                0x0000000000000cc0                _bb_sram_romed_uncached_size = (_bb_sram_romed_uncached_end - _bb_sram_romed_uncached_start)
+                0x00000000000020b0                _bb_sram_romed_size = (_bb_sram_romed_cached_size + _bb_sram_romed_uncached_size)
+                0xffffffff819820b0                _bb_sram_romed_end = (_bb_sram_romed_start + _bb_sram_romed_size)
+
+.bbsram_globals
+                0xffffffff81983270      0x178 load address 0xffffffff81983270
+                0xffffffff81983270                _bb_sram_romed_globals_start = .
+ *(BB_SRAM_GLOBALS)
+ BB_SRAM_GLOBALS
+                0xffffffff81983270       0x14 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(bcpu_ram.o)
+                0xffffffff81983278                bcpu_sp_context
+                0xffffffff8198327c                bcpu_stack_base
+                0xffffffff81983270                bcpu_error_code
+                0xffffffff81983274                bcpu_error_status
+                0xffffffff81983280                bcpu_main_entry
+ *(.bbsram_globals)
+ .bbsram_globals
+                0xffffffff81983284        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_irq.o)
+                0xffffffff81983284                g_spalIrqRegistry
+ .bbsram_globals
+                0xffffffff81983288        0x8 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_xcor.o)
+ .bbsram_globals
+                0xffffffff81983290        0x8 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_amr_tx.o)
+                0xffffffff81983290                g_spcAmrState
+ *fill*         0xffffffff81983298        0x8 00
+ .bbsram_globals
+                0xffffffff819832a0       0xf0 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_tx.o)
+                0xffffffff819832a0                g_spcSwTxFifo
+ .bbsram_globals
+                0xffffffff81983390       0x20 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_cfg.o)
+                0xffffffff81983390                g_sppGlobalParams
+ .bbsram_globals
+                0xffffffff819833b0       0x2c /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_gsm_rx.o)
+ .bbsram_globals
+                0xffffffff819833dc        0x1 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spp_misc.o)
+                0xffffffff819833dc                g_sppFullBurstReady
+ *fill*         0xffffffff819833dd        0x3 00
+ .bbsram_globals
+                0xffffffff819833e0        0x8 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spal_gdb_stub.o)
+                0xffffffff819833e0                spal_GdbGData
+                0xffffffff819833e8                _bb_sram_romed_globals_end = .
+                *undef*                           ASSERT ((SIZEOF (.bbsram_globals) <= 0x190), BBSO)
+
+.sram_romed_top
+                0xffffffff81c0fd7c        0x0 load address 0xffffffff81c0fd7c
+                0xffffffff81c0fd7c                _sys_sram_non_romed_top = .
+
+.mailbox        0xffffffffa1c0fd80      0x260 load address 0xffffffffa1c0fd80
+                0xffffffffa1c0fd80                _sys_sram_romed_mbx_start = .
+ *spc_mailbox.o(.mailbox)
+ .mailbox       0xffffffffa1c0fd80      0x25c /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a(spc_mailbox.o)
+                0xffffffffa1c0fd80                g_mailbox
+                0xffffffffa1c0ffe0                . = ALIGN (0x10)
+ *fill*         0xffffffffa1c0ffdc 0xa1c0ffdc00000004 00
+                *undef*                           ASSERT ((SIZEOF (.mailbox) <= 0x280), MBXO)
+
+.boot_rom_version_number
+                0xffffffff81e13ff8        0x4 load address 0xffffffff81e13ff8
+ *(.boot_rom_version_number)
+ .boot_rom_version_number
+                0xffffffff81e13ff8        0x4 /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a(boot_rom_version.o)
+                0xffffffff81e13ff8                g_bootRomVersionNumber
+
+.internal_rom.crc
+                0xffffffff81e13ffc        0x4 load address 0xffffffff81e13ffc
+                0xffffffff81e13ffc                __int_rom_crc = .
+                0xffffffff81e13ffc        0x4 LONG 0xc001c001
+
+/DISCARD/
+ *.o()
+START GROUP
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/base/std/lib/libstd_cool_profile.a
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/bcpu/lib/libbcpu_cool_profile.a
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/boot/lib/libboot_cool_profile.a
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/chip/hal/lib/libhal_cool_profile.a
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform/vpp/lib/libvpp_cool_profile.a
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/build/target/lib/libtarget_cool_profile.a
+END GROUP
+LOAD /Users/mathieu/Coolsand/Modem2G/wsdaw/env/lib/gcc/mips-elf/3.4.6//libgcc.a
+OUTPUT(/Users/mathieu/Coolsand/Modem2G/wsdaw/build/platform_test/rom/int_rom_programmer/int_rom_programmer_gallite_fpga_softrom_cool_profile.elf elf32-littlemips)

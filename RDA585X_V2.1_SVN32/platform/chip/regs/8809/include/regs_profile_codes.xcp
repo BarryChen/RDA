@@ -1,0 +1,59 @@
+<module name="REGS">
+
+<fn name="**** FINT" id="0x3FFF" group="_FINT"/>
+<fn name="**** FINT" id="0x7FFF" group="_FINT"/>
+
+
+
+<!-- IRQ LIST FOR XCPU -->
+
+<fn name="** IRQ : TCU0"        id="0x3f20" group="_IRQ"/>
+<fn name="** IRQ : TCU1"        id="0x3f21" group="_IRQ"/> 
+<fn name="** IRQ : FINT"        id="0x3f22" group="_IRQ"/>
+<fn name="** IRQ : COM0"        id="0x3f23" group="_IRQ"/>
+<fn name="** IRQ : COM1"        id="0x3f24" group="_IRQ"/>
+<fn name="** IRQ : VOC"         id="0x3f25" group="_IRQ"/>
+<fn name="** IRQ : DMA"         id="0x3f26" group="_IRQ"/>
+<fn name="** IRQ : GPIO"        id="0x3f27" group="_IRQ"/>
+<fn name="** IRQ : KEYPAD"      id="0x3f28" group="_IRQ"/>
+<fn name="** IRQ : TIMERS"      id="0x3f29" group="_IRQ"/>
+<fn name="** IRQ : OS_TIMER"    id="0x3f2a" group="_IRQ"/>
+<fn name="** IRQ : CALENDAR"    id="0x3f2b" group="_IRQ"/>
+<fn name="** IRQ : SPI1"        id="0x3f2c" group="_IRQ"/>
+<fn name="** IRQ : SPI2"        id="0x3f2d" group="_IRQ"/>
+<fn name="** IRQ : SPI3"        id="0x3f2e" group="_IRQ"/>
+<fn name="** IRQ : DEBUG UART"  id="0x3f2f" group="_IRQ"/>
+<fn name="** IRQ : UART"        id="0x3f30" group="_IRQ"/>
+<fn name="** IRQ : UART2"       id="0x3f31" group="_IRQ"/>
+<fn name="** IRQ : I2C"         id="0x3f32" group="_IRQ"/>
+<fn name="** IRQ : I2C2"        id="0x3f33" group="_IRQ"/>
+<fn name="** IRQ : I2C3"        id="0x3f34" group="_IRQ"/>
+<fn name="** IRQ : SIM"         id="0x3f35" group="_IRQ"/>
+<fn name="** IRQ : RFSPI"       id="0x3f36" group="_IRQ"/>
+<fn name="** IRQ : LPS"         id="0x3f37" group="_IRQ"/>
+<fn name="** IRQ : BB_IFC0"     id="0x3f38" group="_IRQ"/>
+<fn name="** IRQ : BB_IFC1"     id="0x3f39" group="_IRQ"/>
+<fn name="** IRQ : USB"         id="0x3f3a" group="_IRQ"/>
+<fn name="** IRQ : GOUDA"       id="0x3f3b" group="_IRQ"/>
+<fn name="** IRQ : SDMMC"       id="0x3f3c" group="_IRQ"/>
+<fn name="** IRQ : CAMERA"      id="0x3f3d" group="_IRQ"/>
+    <fn name="** IRQ : PMU"                       id="0x3F3E" group="_IRQ"/>
+    <fn name="** IRQ : SDMMC2"                    id="0x3F3F" group="_IRQ"/>
+
+<!-- IRQ LIST FOR BCPU -->
+<fn name="**BCPU IRQ : TCU0"                id="0x7f20" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : TCU1"                id="0x7f21" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : FINT"                id="0x7f22" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : COM0"                id="0x7f23" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : COM1"                id="0x7f24" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : VOC"                 id="0x7f25" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : IFC0"                id="0x7f26" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : IFC1"                id="0x7f27" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : IFC2"                id="0x7f28" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : IFC3"                id="0x7f29" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : RF_IF"               id="0x7f2a" group="_BCPU_IRQ"/>
+<fn name="**BCPU IRQ : OTHER"               id="0x7f2f" group="_BCPU_IRQ"/>
+
+
+</module>
+

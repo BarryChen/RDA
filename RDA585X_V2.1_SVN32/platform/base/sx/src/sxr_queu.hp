@@ -1,0 +1,62 @@
+/*
+================================================================================
+
+  This source code is property of StackCom. The information contained in this
+  file is confidential. Distribution, reproduction, as well as exploitation,or
+  transmisison of any content of this file is not allowed except if expressly
+  permitted. Infringements result in damage claims.
+
+  Copyright StackCom (c) 2003
+
+================================================================================
+*/
+
+/*
+================================================================================
+  File         sxr_queu.hp
+--------------------------------------------------------------------------------
+
+  Scope      : Queue management private header file.
+
+  History    :
+--------------------------------------------------------------------------------
+ Aug 13 2003 |  ADA  | Creation
+================================================================================
+*/
+
+#include "sxs_type.h"
+#include "sxr_cnf.h"
+#include "sxr_queu.h"
+
+#define SXR_NO_QUEUE    0xFF
+#define SXR_NO_ENV      0xFFFF
+
+
+typedef struct
+{
+ u16 First;
+ u16 Last;
+ u16 Prev [SXR_NB_MAX_USR_QUEUE];
+ u16 Cur  [SXR_NB_MAX_USR_QUEUE];
+ u16 Load;
+#ifdef __SXR_QUEUE_DBG__
+ const ascii *Name;
+ void (*Print)(void *);
+#endif
+} sxr_QueueDesc_t;
+
+typedef struct
+{
+ u16 Next;
+ u16 Idx;
+ void *Data;
+} sxr_QueueEnv_t;
+
+
+sxr_QueueDesc_t sxr_QueueDesc [SXR_NB_MAX_QUEUE];
+sxr_QueueEnv_t  sxr_QueueEnv  [SXR_NB_QUEUE_ENVELOPPE];
+
+u8  sxr_QueueFreeDesc;
+u16 sxr_QueueFreeEnv;
+
+
