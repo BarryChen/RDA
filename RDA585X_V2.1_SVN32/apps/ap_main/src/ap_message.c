@@ -449,14 +449,15 @@ UINT32 MESSAGE_Hotkey(UINT32 key)
 			return 0;
 		}
 #endif
-	case AP_KEY_POWER  | AP_KEY_PRESS:
+	/*case AP_KEY_POWER  | AP_KEY_PRESS:
 #if XDL_APP_SUPPORT_TONE_TIP==1
 		lowpower_flag_for_tone = 4;
 		MESSAGE_SetEvent(0xaaaa1111);
 		return 0;
+#endif*/
+
 	case 0xad11dead:
 		hal_HstSendEvent(APP_EVENT, 0x2013dead);
-#endif
 	//case AP_MSG_SLEEP:        //睡眠
 	//case AP_MSG_LOW_POWER:    //低电自动关机
 	case AP_MSG_FORCE_STANDBY:    //使用上两个会报label duplicate

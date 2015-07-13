@@ -2092,7 +2092,7 @@ INT32 BT_Active_Bluetooth(void)
 	char *tmp = NULL;
 	extern BOOL g_test_mode;
 	media_StopInternalAudio();
-		if(!g_test_mode)
+		/*if(!g_test_mode)
 #if XDL_APP_SUPPORT_TONE_TIP==1
 		{
 			media_PlayInternalAudio(GUI_AUDIO_BT_POWERON, 1, FALSE);
@@ -2105,7 +2105,7 @@ INT32 BT_Active_Bluetooth(void)
 		{
 			;
 		}
-#endif	
+#endif	*/
 	ev.nEventId = EV_BT_POWERON_REQ;
 	ev.nParam1 = &(g_pBT_vars->local_addr);
 	COS_SendEvent(MOD_BT,  &ev, COS_WAIT_FOREVER, COS_EVENT_PRI_NORMAL);
