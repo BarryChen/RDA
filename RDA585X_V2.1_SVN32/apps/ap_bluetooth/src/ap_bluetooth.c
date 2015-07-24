@@ -3214,7 +3214,7 @@ INT32 BT_ChangeVol(UINT32 key)
 		}
 		
 		BT_VolumeCb(g_pBT_vars->volume);
-#if 0// XDL_APP_SUPPORT_TONE_TIP==1
+#if  XDL_APP_SUPPORT_TONE_TIP==1
 		if(g_pBT_vars->volume >= BT_VOLUME_MAX || g_pBT_vars->volume <= 0)
 		{
 			lowpower_flag_for_tone = 0;

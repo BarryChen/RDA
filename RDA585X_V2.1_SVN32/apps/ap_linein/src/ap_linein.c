@@ -74,7 +74,7 @@ INT32 LineIn_ChangeVolume( UINT32 key )
 		}
 		SetPAVolume(g_linein_volumne);
 		g_comval->Volume = g_linein_volumne;
-#if 0//XDL_APP_SUPPORT_TONE_TIP==1
+#if XDL_APP_SUPPORT_TONE_TIP==1
 		if(g_linein_volumne >= LINEIN_MAX_VOLUME || g_linein_volumne <= 0)
 		{
 			lowpower_flag_for_tone = 0;
