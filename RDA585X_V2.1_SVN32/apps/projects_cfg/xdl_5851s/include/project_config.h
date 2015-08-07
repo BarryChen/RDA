@@ -22,7 +22,7 @@
 #define APP_SUPPORT_FM                  0
 #define APP_SUPPORT_FM_RECORD           0
 #define APP_SUPPORT_FM_OUT              0
-#define APP_SUPPORT_LINEIN              1
+#define APP_SUPPORT_LINEIN              0
 #define APP_SUPPORT_FOLLOW_COMPARE      0
 #define APP_SUPPORT_LYRIC               0
 #define APP_SUPPORT_FADE_INOUT          0

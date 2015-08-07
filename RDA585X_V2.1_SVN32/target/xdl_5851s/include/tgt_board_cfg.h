@@ -206,7 +206,7 @@
 {                                                                   \
     .gpio_irc                    = HAL_GPIO_NONE,                      \
     .led_count                   = 3,                               \
-    .ledHighLight                = TRUE,                            \
+    .ledHighLight                = FALSE,                            \
     .leds      = {                                                  \
         PMD_LEVEL_LED0,     /* MUSIC */                             \
         PMD_LEVEL_LED1,     /* FM */                                \
@@ -215,7 +215,7 @@
     .key_interrupt_mode          = FALSE,                           \
     .high_keydown                = TRUE,                            \
     .gpio_keys                   = { HAL_GPIO_NONE       },         \
-    .gpio_lineIn                 = HAL_GPIO_7,                      \
+    .gpio_lineIn                 = HAL_GPIO_NONE,                      \
     .lineinPlugHigh              = FALSE,                            \
     .cardDetectGpio              = HAL_GPIO_1,                      \
     .gpioCardDetectHigh          = FALSE,                           \
@@ -224,7 +224,7 @@
     .earpiecePlugin              = TRUE,                           \
     .gpioMute                    = { .gpioId = HAL_GPIO_17 },     \
     .gpioMuteEnable              = TRUE,                           \
-    .gpioMuteHigh                = FALSE,                           \
+    .gpioMuteHigh                = TRUE,                           \
     .uart2_wake                  = HAL_GPIO_NONE, 	                \
     .gpioUSBDetect               = HAL_GPIO_NONE, 			        \
     .gpioUSBPlugHigh             = FALSE,                           \
@@ -560,7 +560,7 @@
 {                                                                         \
  /* power key */  KEY_POWER,                                            \
  /* gpio keys */   KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,  \
- /* TSC keys  */   KEY_INVALID,	    KEY_PREV,	KEY_PLAY,	    KEY_INVALID,       KEY_NEXT,	KEY_INVALID,	    KEY_INVALID,	    KEY_INVALID, \
+ /* TSC keys  */   KEY_NEXT,	KEY_INVALID,	KEY_PREV,		KEY_CALL,		KEY_PLAY,	    KEY_INVALID,       KEY_NEXT,	KEY_INVALID, \
                 KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,  \
                 KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,  \
 }

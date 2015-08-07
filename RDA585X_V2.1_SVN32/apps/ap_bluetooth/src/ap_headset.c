@@ -743,7 +743,7 @@ INT32 BT_Call(void)
 			//do nothing
 			break;
 			
-		case AP_KEY_PLAY|AP_KEY_PRESS:
+		case AP_KEY_CALL|AP_KEY_PRESS:
 			hal_HstSendEvent(SYS_EVENT, 0x19885600);
 			hal_HstSendEvent(SYS_EVENT, call_status);
 			if(HF_Get_Current_Profile() == ACTIVE_PROFILE_HEADSET)
@@ -766,7 +766,7 @@ INT32 BT_Call(void)
 			}
 			break;
 			
-		case AP_KEY_PLAY|AP_KEY_HOLD:
+		case AP_KEY_CALL|AP_KEY_HOLD:
 			if(MESSAGE_IsHold())
 			{
 				hal_HstSendEvent(SYS_EVENT, 0x1988aaaa);
@@ -1191,7 +1191,7 @@ INT32 BT_MusicPlay(void)
 			break;
 #endif
 			
-		case AP_KEY_PLAY|AP_KEY_PRESS:
+		case AP_KEY_CALL|AP_KEY_PRESS:
 			hal_HstSendEvent(SYS_EVENT, 0x19884900);
 			hal_HstSendEvent(SYS_EVENT, g_avrcp_status);
 			hal_HstSendEvent(SYS_EVENT, support_avrcp_status);
@@ -1231,7 +1231,7 @@ INT32 BT_MusicPlay(void)
 			}
 			break;
 			
-		case AP_KEY_PLAY|AP_KEY_DOUBLE:
+		case AP_KEY_CALL|AP_KEY_DOUBLE:
 			hal_HstSendEvent(SYS_EVENT, 0xaaaaaaaa);
 #if !defined(NOT_SUPPORT_HFP)
 			//if(MESSAGE_IsHold())
@@ -1597,7 +1597,7 @@ INT32 BT_Connect(void)
 #endif
 			break;
 			
-		case AP_KEY_PLAY|AP_KEY_PRESS:
+		case AP_KEY_CALL|AP_KEY_PRESS:
 			hal_HstSendEvent(SYS_EVENT, 0x19888700);
 			hal_HstSendEvent(SYS_EVENT, g_avdtp_connect);
 			hal_HstSendEvent(SYS_EVENT, g_avrcp_connect);
@@ -1631,7 +1631,7 @@ INT32 BT_Connect(void)
 			
 			break;
 			
-		case AP_KEY_PLAY|AP_KEY_DOUBLE:
+		case AP_KEY_CALL|AP_KEY_DOUBLE:
 #if !defined(NOT_SUPPORT_HFP)
 			//if(MESSAGE_IsHold())
 			{

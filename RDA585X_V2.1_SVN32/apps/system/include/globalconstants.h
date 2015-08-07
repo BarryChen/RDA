@@ -101,12 +101,13 @@ typedef enum
 	KEY_MUTE,
 	KEY_HALT,
 	KEY_POWER,
-	
+	KEY_CALL,//BYCC
 	KEY_VOL_UP,
 	KEY_VOL_DOWN,
 	
 	KEY_EXTRA_1,
 	KEY_EXTRA_2,
+	
 	
 	
 	MAX_KEYS,				/* max key codes support */

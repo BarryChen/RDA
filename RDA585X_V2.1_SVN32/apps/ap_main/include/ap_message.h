@@ -61,6 +61,7 @@
 #define AP_KEY_EXTRA2           (KEY_EXTRA_2<<16)
 #define AP_KEY_STAR             (KEY_EQ<<16)            // * 
 #define AP_KEY_HASH             (KEY_LOOP<<16)          // #
+#define AP_KEY_CALL             (KEY_CALL<<16)          // #
 
 //msg
 #define AP_MSG_LOCK             25

@@ -4168,6 +4168,7 @@ INT32 BT_HandleKey(UINT32 key)
 
 	//case AP_KEY_MODE|AP_KEY_PRESS:
 	case AP_KEY_PLAY|AP_KEY_HOLD:
+		break;
 		if(MESSAGE_IsHold())
 		{
 #if APP_SUPPORT_MENU==1
