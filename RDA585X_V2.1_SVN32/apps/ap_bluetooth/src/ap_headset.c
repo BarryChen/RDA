@@ -1003,7 +1003,7 @@ INT32 BT_MusicPlay(void)
 					g_sco_play = 0;
 				}
 				//g_bt_need_draw = TRUE;
-				wait_quit = 10; // wait 5second to return
+				wait_quit = 3; // wait 5second to return
 			}
 		}
 #if XDL_APP_SUPPORT_TONE_TIP==1
@@ -1035,7 +1035,7 @@ INT32 BT_MusicPlay(void)
 				hal_HstSendEvent(SYS_EVENT, 0x1988c006);
 #if APP_SUPPORT_DELAY_VOLUME==1
 				//SetPAVolume(0); // wait 2 second to open pa
-				wait_volume = 4;
+				wait_volume = 1;
 #else
 				gpio_SetMute(FALSE);//added by gary    iphone 4s 灭屏再开锁，按播放后无声。
 				SetPAVolume(g_pBT_vars->volume);
@@ -1191,7 +1191,7 @@ INT32 BT_MusicPlay(void)
 			break;
 #endif
 			
-		case AP_KEY_CALL|AP_KEY_PRESS:
+		case AP_KEY_PLAY|AP_KEY_PRESS:
 			hal_HstSendEvent(SYS_EVENT, 0x19884900);
 			hal_HstSendEvent(SYS_EVENT, g_avrcp_status);
 			hal_HstSendEvent(SYS_EVENT, support_avrcp_status);
@@ -1231,10 +1231,10 @@ INT32 BT_MusicPlay(void)
 			}
 			break;
 			
-		case AP_KEY_CALL|AP_KEY_DOUBLE:
+		case AP_KEY_CALL|AP_KEY_HOLD:
 			hal_HstSendEvent(SYS_EVENT, 0xaaaaaaaa);
 #if !defined(NOT_SUPPORT_HFP)
-			//if(MESSAGE_IsHold())
+			if(MESSAGE_IsHold())
 			{
 				//is_play_music = TRUE;
 				//Avrcp_Send_Key(OPID_PAUSE);
@@ -1597,7 +1597,7 @@ INT32 BT_Connect(void)
 #endif
 			break;
 			
-		case AP_KEY_CALL|AP_KEY_PRESS:
+		case AP_KEY_PLAY|AP_KEY_PRESS:
 			hal_HstSendEvent(SYS_EVENT, 0x19888700);
 			hal_HstSendEvent(SYS_EVENT, g_avdtp_connect);
 			hal_HstSendEvent(SYS_EVENT, g_avrcp_connect);
@@ -1631,9 +1631,9 @@ INT32 BT_Connect(void)
 			
 			break;
 			
-		case AP_KEY_CALL|AP_KEY_DOUBLE:
+		case AP_KEY_CALL|AP_KEY_HOLD:
 #if !defined(NOT_SUPPORT_HFP)
-			//if(MESSAGE_IsHold())
+			if(MESSAGE_IsHold())
 			{
 				HF_Call_Request(HF_CALL_REDIAL, 0);
 			}
@@ -2687,7 +2687,7 @@ static void cycle_detect_musicplay()
 	if(music_playing==0)
 	{
 		BT_Send_Msg_Up(EV_BT_A2DP_PLAY_IND, 0);
-		musicplay_timer=COS_SetTimer(2000, cycle_detect_musicplay, NULL, COS_TIMER_MODE_SINGLE);
+		musicplay_timer=COS_SetTimer(500, cycle_detect_musicplay, NULL, COS_TIMER_MODE_SINGLE);
 	}
 	else
 	{

@@ -130,6 +130,8 @@ extern UINT8 g_hid_connect;
 
 UINT8 g_bt_device_change = 0;
 UINT16 g_bt_timer = 0;
+UINT32 g_bt_powerof_timer = 0;
+
 UINT8 g_bt_connect_pending = 0;
 UINT8 g_bt_ecc_flag = 0; // 0: idle, 1: calc local key, 2: calc dk key
 UINT16 g_bt_sco_handle = 0;
@@ -2347,6 +2349,7 @@ INT32 BT_Set_Visiable(INT8 visiable)
 #else
 		g_bt_timer = 999 * 2;
 #endif
+		g_bt_powerof_timer = 5*60*2;
 		g_bt_state = BT_SCAN;
 	}
 	else
@@ -4828,6 +4831,10 @@ INT32 BT_Main(void)
 				{
 					BT_Set_Visiable(0);
 					MESSAGE_Initial(g_comval);
+				}
+				if(--g_bt_powerof_timer == 0)
+				{
+					return RESULT_STANDBY;
 				}
 			}
 #endif

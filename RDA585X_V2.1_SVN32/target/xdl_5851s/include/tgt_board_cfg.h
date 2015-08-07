@@ -206,7 +206,7 @@
 {                                                                   \
     .gpio_irc                    = HAL_GPIO_NONE,                      \
     .led_count                   = 3,                               \
-    .ledHighLight                = FALSE,                            \
+    .ledHighLight                = TRUE,                            \
     .leds      = {                                                  \
         PMD_LEVEL_LED0,     /* MUSIC */                             \
         PMD_LEVEL_LED1,     /* FM */                                \
@@ -224,7 +224,7 @@
     .earpiecePlugin              = TRUE,                           \
     .gpioMute                    = { .gpioId = HAL_GPIO_17 },     \
     .gpioMuteEnable              = TRUE,                           \
-    .gpioMuteHigh                = TRUE,                           \
+    .gpioMuteHigh                = FALSE,                           \
     .uart2_wake                  = HAL_GPIO_NONE, 	                \
     .gpioUSBDetect               = HAL_GPIO_NONE, 			        \
     .gpioUSBPlugHigh             = FALSE,                           \
@@ -560,7 +560,7 @@
 {                                                                         \
  /* power key */  KEY_POWER,                                            \
  /* gpio keys */   KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,  \
- /* TSC keys  */   KEY_NEXT,	KEY_INVALID,	KEY_PREV,		KEY_CALL,		KEY_PLAY,	    KEY_INVALID,       KEY_NEXT,	KEY_INVALID, \
+ /* TSC keys  */  KEY_CALL,		KEY_INVALID,	KEY_PREV,		 KEY_NEXT,		KEY_PLAY,	    KEY_INVALID,       KEY_NEXT,	KEY_INVALID, \
                 KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,  \
                 KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,	KEY_INVALID,    KEY_INVALID,	KEY_INVALID,	KEY_INVALID,  \
 }

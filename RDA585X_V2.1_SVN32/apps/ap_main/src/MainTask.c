@@ -424,6 +424,8 @@ INT32 APP_StandBy(void)
 		CloseBacklight();
 	}
 	ui_auto_update = FALSE;
+
+
 	
 	//APP_Sleep();
 #ifdef XDL_35uA_POWEROFF//warkey 2.1  //进入超低电流关机
@@ -1044,6 +1046,17 @@ TASK_ENTRY BAL_MainTaskEntry(void *pData)
 					else
 			#endif
 					{
+#if 1//XDL_APP_SUPPORT_TONE_TIP==1
+						hal_HstSendEvent(SYS_EVENT, 0x11117723);
+
+						media_PlayInternalAudio(GUI_AUDIO_FM_SEARCH, 1, FALSE);
+						while(GetToneStatus())
+						{
+							MESSAGE_Sleep_EXT(1);
+						}
+						COS_Sleep(1000);
+#endif
+
 						g_light_time = 0;
 						result = APP_StandBy();
 						
