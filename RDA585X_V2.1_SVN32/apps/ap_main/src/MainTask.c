@@ -1037,6 +1037,28 @@ TASK_ENTRY BAL_MainTaskEntry(void *pData)
 				break;
 			case RESULT_STANDBY:
 				{
+#if XDL_APP_SUPPORT_TONE_TIP==1
+					media_PlayInternalAudio(GUI_AUDIO_FM_SEARCH, 1, TRUE);
+					while(GetToneStatus())
+					{
+						MESSAGE_Sleep(1);
+					}
+					hal_HstSendEvent(SYS_EVENT, 0x11117711);
+#endif
+
+					gpio_SetMute(TRUE);
+
+					LED_SetPattern(GUI_LED_POWERON, 3);
+					COS_Sleep(800);
+					app_trace(APP_MAIN_TRC, "APP_StandBy call DM_DeviceSwithOff");					
+#ifdef XDL_35uA_POWEROFF//warkey 2.1  //进入超低电流关机
+					rfd_XcvRegForceWrite32k();
+#endif
+
+					DM_DeviceSwithOff();
+					hal_HstSendEvent(SYS_EVENT, 0xdead8900);
+					
+
 					extern UINT8 g_light_time;
 			#ifdef SUPPORT_POWERON_ENTER_CHARGE_AP//warkey 2.1
 					if(-1 == GetBattery())
@@ -1046,7 +1068,7 @@ TASK_ENTRY BAL_MainTaskEntry(void *pData)
 					else
 			#endif
 					{
-#if 1//XDL_APP_SUPPORT_TONE_TIP==1
+#if 0//XDL_APP_SUPPORT_TONE_TIP==1
 						hal_HstSendEvent(SYS_EVENT, 0x11117723);
 
 						media_PlayInternalAudio(GUI_AUDIO_FM_SEARCH, 1, FALSE);
