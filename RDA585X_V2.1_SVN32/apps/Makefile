@@ -1,4 +1,4 @@
-## ----------------------------------------------------------- ##
+##test ----------------------------------------------------------- ##
 ## Don't touch the next line unless you know what you're doing.##
 ## ----------------------------------------------------------- ##
 include ${SOFT_WORKDIR}/env/compilation/compilevars.mk
