@@ -1003,7 +1003,7 @@ INT32 BT_MusicPlay(void)
 					g_sco_play = 0;
 				}
 				//g_bt_need_draw = TRUE;
-				wait_quit = 3; // wait 5second to return
+				wait_quit = 5; // wait 5second to return
 			}
 		}
 #if XDL_APP_SUPPORT_TONE_TIP==1
@@ -1035,6 +1035,8 @@ INT32 BT_MusicPlay(void)
 				hal_HstSendEvent(SYS_EVENT, 0x1988c006);
 #if APP_SUPPORT_DELAY_VOLUME==1
 				//SetPAVolume(0); // wait 2 second to open pa
+				gpio_SetMute(TRUE);
+				SetInternalPAVolume(g_pBT_vars->volume);
 				wait_volume = 1;
 #else
 				gpio_SetMute(FALSE);//added by gary    iphone 4s 灭屏再开锁，按播放后无声。
@@ -1060,7 +1062,9 @@ INT32 BT_MusicPlay(void)
 				hal_HstSendEvent(SYS_EVENT, 0x77772211);
 				//gpio_SetMute(FALSE);
 				Avrcp_Send_Key(OPID_PLAY);
-				wait_volume = 2;
+				gpio_SetMute(TRUE);
+				SetInternalPAVolume(g_pBT_vars->volume);
+				wait_volume = 1;
 			}
 		}
 #endif
@@ -1153,7 +1157,7 @@ INT32 BT_MusicPlay(void)
 				if(wait_volume == 0)
 				{
 					app_trace(5, ">>>>>>>>>>>>wait_volume!");
-					SetPAVolume(g_pBT_vars->volume);
+					//SetPAVolume(g_pBT_vars->volume);
 					if(g_pBT_vars->volume == 0)
 					{
 						gpio_SetMute(TRUE);
@@ -1520,8 +1524,10 @@ INT32 BT_Connect(void)
 			hal_HstSendEvent(SYS_EVENT, 0x1988cc01);
 			mediaSendCommand(MC_PLAY_SCO, g_bt_sco_handle);
 #if APP_SUPPORT_DELAY_VOLUME==1
-			wait_volume = 2;
-			SetPAVolume(0);
+			gpio_SetMute(TRUE);
+			wait_volume = 1;
+			SetInternalPAVolume(g_pBT_vars->volume);
+			//SetPAVolume(0);
 #else
 			SetPAVolume(g_pBT_vars->volume);
 #endif
@@ -1583,7 +1589,7 @@ INT32 BT_Connect(void)
 				wait_volume --;
 				if(wait_volume == 0)
 				{
-					SetPAVolume(g_pBT_vars->volume);
+					//SetPAVolume(g_pBT_vars->volume);
 					if(g_pBT_vars->volume)
 					{
 						gpio_SetMute(FALSE);
